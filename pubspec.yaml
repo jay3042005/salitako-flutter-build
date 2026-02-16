@@ -1,0 +1,71 @@
+name: salitako_flutter
+description: "SalitaKo - AI-powered bilingual speech coaching app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Networking
+  dio: ^5.7.0
+  bonsoir: ^5.1.0  # mDNS service discovery
+
+  # Local Database
+  drift: ^2.22.1
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Audio Recording
+  record: ^6.0.0
+  audioplayers: ^6.1.0
+  permission_handler: ^11.3.1
+
+  # UI Components
+  fl_chart: ^0.69.2
+  lottie: ^3.2.0
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.2.1
+  gap: ^3.0.1
+  flutter_svg: ^2.0.16
+  cached_network_image: ^3.4.1
+
+  # Utilities
+  intl: ^0.20.1
+  uuid: ^4.5.1
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  shared_preferences: ^2.3.4
+  equatable: ^2.0.7
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.9.0
+  riverpod_generator: ^2.4.3
+  drift_dev: ^2.22.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/icons/
